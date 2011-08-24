@@ -1,10 +1,9 @@
 from django.template import defaultfilters
 from django.template import Node
 from django.template import Library
-from utils.models import datetime
 from django.utils.translation import ugettext as _
 
-from timezones.utils import localtime_for_timezone
+from timezones.utils import localtime_for_timezone, datetime
 
 register = Library()
 
